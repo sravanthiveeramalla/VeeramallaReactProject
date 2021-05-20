@@ -17,3 +17,63 @@
   @import each of them in reverse-priority order (bottom = highest priority).
 */
 @import 'global';
+
+.form-container {
+  margin: 10px;
+}
+.form-heading {
+  text-align: center;
+}
+.form-login-wrapper {
+  border: 1px solid #000;
+  min-width: 30%;
+  margin: 0px;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.form-wrap-col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.form-wrap-col2 {
+  padding: 10px;
+}
+.form-wrap-col1 img {
+  flex-shrink: 0;
+  min-width: 100%;
+  height: 455px;
+}
+.form-group {
+  padding: 10px;
+}
+.form-group > label {
+  font-weight: 600;
+}
+.email-label {
+  vertical-align: middle;
+}
+.forgotdiv {
+  text-align: end;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #03254c;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+}
