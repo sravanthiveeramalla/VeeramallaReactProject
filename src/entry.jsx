@@ -16,12 +16,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // Import our top-level component.
-import Login from 'components/Login'
+import App from 'components/App'
 
 // Mount our app.
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <App />
   </React.StrictMode>,
   document.querySelector('#app'),
 )
