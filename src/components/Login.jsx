@@ -19,10 +19,10 @@ export default function Login() {
                 <input type="text" name="email" onBlur={handleChange} placeholder="Email" />
               </div>
             </div>
-            <div className="form-group">
+            <div className="form-group" >
               <input type="submit" className="btn submit-btn" value="Add Email" />
             </div>
-            <div className="form-group" >
+            <div className="form-group"   >
               {myArray.length!=0 && 
         <div className="">
           <h3>Results</h3>
