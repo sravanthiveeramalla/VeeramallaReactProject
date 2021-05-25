@@ -22,7 +22,7 @@ export default function Login() {
             <div className="form-group">
               <input type="submit" className="btn submit-btn" value="Add Email" />
             </div>
-            <div className="form-group">
+            <div className="form-group" >
               {myArray.length!=0 && 
         <div className="">
           <h3>Results</h3>
